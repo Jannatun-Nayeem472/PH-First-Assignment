@@ -199,7 +199,7 @@ body {
     align-items: center;
     column-gap: 32px;
 }
-#support {
+#support, #inspiration {
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -301,4 +301,7 @@ body {
     justify-content: space-between;
     align-items: center;
     column-gap: 24px;
+}
+#inspiration {
+    margin-bottom: 100px;
 }
