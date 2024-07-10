@@ -306,3 +306,14 @@ body {
 #inspiration {
     margin-bottom: 100px;
 }
+.video-wrapper {
+    width: 100%;
+    height: 614px;
+    padding: 32px;
+    background-color: #0d132105;
+    border-radius: 16px;
+}
+.video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+}
