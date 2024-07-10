@@ -3,11 +3,12 @@
     margin: 0;
     padding: 0;
 }
+   /* body style starts here */
+
 body {
     font-family: 'Azeret Mono', sans-serif;
 }
-
-.header-container{
+   .header-container{
     background-color: white;
     padding: 40px 150px;
 }
@@ -16,7 +17,6 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
 .download-btn{
     background-color: white;
     border: 1px solid #0D1321;
@@ -26,12 +26,14 @@ body {
     font-weight: 600;
     font-size: 20px;
 }
-
 .logo{
     font-weight: 800;
     font-size: 28px;
 
 }
+   /* body style ends here */
+
+  /* Banner section style starts here */
 
 #banner{
     width: 100%;
@@ -86,3 +88,67 @@ body {
     align-items: center;
     justify-content: center;
 }
+  /* Banner section style ends here */
+  
+
+.layer-container{
+    width: 1140px;
+    border-radius: 16px;
+    background-color: #0d132105;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#dev-reason{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.section-heading-content{
+    width: 852px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 24px;
+    
+}
+.section-title{
+    font-weight: 800;
+    font-size: 32px;
+    color: #0D1321;
+
+}
+
+.section-discription{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color:#0D1321;
+
+}
+.section-block-1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.block-1-media{
+    width: 274.17px;
+    height: 240px;
+    background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
