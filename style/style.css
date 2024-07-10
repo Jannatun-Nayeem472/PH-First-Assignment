@@ -38,3 +38,51 @@ body {
     height: 652px;
     background-image: url('../images/Hero-bg.png');
 }
+
+.media, .banner-content, .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.banner-content p{
+    text-align: center;
+    width: 852px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+    padding-bottom: 32px;
+}
+
+.banner-content h1 {
+
+     text-align: center;
+    width: 998px;
+    font-weight: 800;
+    font-size: 48px;
+    color: #0D1321;
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+.btn{
+    background-color: #0D1321;
+    border: 1px solid #0D1321;
+    padding: 24px 21px;
+    width: 244px;
+    max-height: 65px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.banner-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
